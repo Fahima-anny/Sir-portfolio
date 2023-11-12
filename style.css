@@ -101,3 +101,40 @@ hr{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
+
+/* experienceSection start  */
+#experienceSection{
+    padding: 50px 0;
+    background-image: url(./exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 270px;
+  
+}
+#experienceSectionHeading{
+    font-size: 54px;
+    padding-left: 20px;
+}
+#majorDiv{
+    padding: 0 50px;
+    
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.experienceCard{
+    padding: 30px 20px;
+    border-left: 7px solid rgb(243, 52, 52);
+    box-shadow: 5px 5px 20px 5px #909090;
+}
+.experienceCardHeading{
+    font-size: 34px;
+}
+.experienceCardh4{
+    font-size: 24px;
+    color: rgb(200, 132, 6);
+}
+.experienceCardP{
+    text-align: justify;
+    font-size: 18px;
+}
